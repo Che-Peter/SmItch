@@ -43,6 +43,9 @@ Its core algorithm runs offline, meaning it does not depend on constant internet
 ## PCB Examples
 <p align="center">
   <img src="Hardware_PCB/Boards/Processor_bottom.png" alt="Processor Bottom" width="400"/>
+</p>
+
+<p align="center">
   <img src="Hardware_PCB/Boards/lamps_control_board_with_10A_relays.png" alt="Lamp Control Board" width="400"/>
 </p>
 
@@ -60,7 +63,13 @@ During local PCB realization at this scale, several issues were encountered:
 ## Boards (1 year 8 months in use)
 <p align="center">
   <img src="Pictures/Old_view_mega_processor.jpg" alt="Old Mega Processor" width="400"/>
+</p>
+
+<p align="center">
   <img src="Pictures/complete_mega_board.jpg" alt="Complete Mega Board" width="400"/>
+</p>
+
+<p align="center">
   <img src="Pictures/Old_board_lamp_terminals.jpg" alt="Old Lamp Terminals" width="400"/>
 </p>
 
