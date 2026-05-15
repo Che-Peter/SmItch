@@ -38,6 +38,10 @@ Its core algorithm runs offline, meaning it does not depend on constant internet
 ## Project Flyer
 ![SmItch Flyer](Docs_System/flier.png)
 
+## PCB Examples
+![Complete Mega Board](Hardware_PCB/Boards/Processor_bottom.png)
+![Mini Lamp Terminals](Hardware_PCB/Boards/lamps_control_board_with_10A_relays.png)
+
 ## Documentation
 See `/Docs_System/Features_of_SmItch.pdf` for the complete feature list and scenarios.
 
@@ -47,10 +51,11 @@ During local PCB realization at this scale, several issues were encountered:
 - Many connections had to be **modified manually after realization** to restore continuity.  
 - Over time, some lines would still cut, showing that the links were not mechanically strong enough.  
 - These challenges highlighted the difficulty of locally fabricating high‑current PCBs and taught valuable lessons about robust design and manufacturing processes.
+- wven with good skills in local PCB, we still had to get to this, though the picture below is that of a board that made 1 year 8 months in the field, but it was not looking good
 
-## PCB Examples
-![Complete Mega Board](Hardware_PCB/Boards/complete_mega_board.jpg)
-![Mini Lamp Terminals](Hardware_PCB/Boards/lamp_terminals_focus_on_Mini.jpg)
+## Boards (1 year 8 months in use)
+![Old board processor only](Pictures/Old_view_mega_processor.jpg)
+![Complete Mega Board](Pictures/complete_mega_board.jpg)
 
 ## Firmware Versions
 - **Arduino_code** → Original Mega Pro Mini firmware  
