@@ -36,11 +36,15 @@ Its core algorithm runs offline, meaning it does not depend on constant internet
   This ensures schedules, switch disabling, and safe start features continue to work even without internet connectivity.
 
 ## Project Flyer
-![SmItch Flyer](Docs_System/flier.png)
+<p align="center">
+  <img src="Docs_System/flier.png" alt="SmItch Flyer" width="600"/>
+</p>
 
 ## PCB Examples
-![Complete Mega Board](Hardware_PCB/Boards/Processor_bottom.png)
-![Mini Lamp Terminals](Hardware_PCB/Boards/lamps_control_board_with_10A_relays.png)
+<p align="center">
+  <img src="Hardware_PCB/Boards/Processor_bottom.png" alt="Processor Bottom" width="400"/>
+  <img src="Hardware_PCB/Boards/lamps_control_board_with_10A_relays.png" alt="Lamp Control Board" width="400"/>
+</p>
 
 ## Documentation
 See `/Docs_System/Features_of_SmItch.pdf` for the complete feature list and scenarios.
@@ -54,9 +58,11 @@ During local PCB realization at this scale, several issues were encountered:
 - wven with good skills in local PCB, we still had to get to this, though the picture below is that of a board that made 1 year 8 months in the field, but it was not looking good
 
 ## Boards (1 year 8 months in use)
-![Old board processor only](Pictures/Old_view_mega_processor.jpg)
-![Complete Mega Board](Pictures/complete_mega_board.jpg)
-![Lamp PCB old board](Pictures/Old_board_lamp_terminals.jpg)
+<p align="center">
+  <img src="Pictures/Old_view_mega_processor.jpg" alt="Old Mega Processor" width="400"/>
+  <img src="Pictures/complete_mega_board.jpg" alt="Complete Mega Board" width="400"/>
+  <img src="Pictures/Old_board_lamp_terminals.jpg" alt="Old Lamp Terminals" width="400"/>
+</p>
 
 
 
