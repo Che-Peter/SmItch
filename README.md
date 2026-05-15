@@ -40,13 +40,13 @@ Its core algorithm runs offline, meaning it does not depend on constant internet
   <img src="Docs_System/flier.png" alt="SmItch Flyer" width="600"/>
 </p>
 
-## interfacing
+## Interfacing
 <p align="center">
   <img src="Docs_System/Smitch_device.png" alt="SmItch device" width="400"/>
 </p>
 
 <p align="center">
-  <img src="Docs_System/wiring.png" alt="Wiring diagram" width="400"/>
+  <img src="Docs_System/Wiring.png" alt="Wiring diagram" width="400"/>
 </p>
 
 
