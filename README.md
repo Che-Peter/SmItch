@@ -56,6 +56,9 @@ During local PCB realization at this scale, several issues were encountered:
 ## Boards (1 year 8 months in use)
 ![Old board processor only](Pictures/Old_view_mega_processor.jpg)
 ![Complete Mega Board](Pictures/complete_mega_board.jpg)
+![Lamp PCB old board](Pictures/Old_board_lamp_terminals.jpg)
+
+
 
 ## Firmware Versions
 - **Arduino_code** → Original Mega Pro Mini firmware  
