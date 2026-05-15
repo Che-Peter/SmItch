@@ -27,7 +27,7 @@ Its core algorithm runs offline, meaning it does not depend on constant internet
   Used for authentication, database storage, and cloud synchronization.  
   Enables secure communication between hardware and mobile app.  
 
-- **Mobile Application**: Flutter (outsourced)
+- **Mobile Application**: Flutter (outsourced)  
   Built with Flutter for cross‑platform compatibility.  
   Provides a user‑friendly interface with enlarged control buttons and smooth integration with Firebase.  
 
@@ -57,8 +57,8 @@ During local PCB realization at this scale, several issues were encountered:
 - Copper lines were not fully formed due to **partial etching**, leading to broken traces.  
 - Many connections had to be **modified manually after realization** to restore continuity.  
 - Over time, some lines would still cut, showing that the links were not mechanically strong enough.  
-- These challenges highlighted the difficulty of locally fabricating high‑current PCBs and taught valuable lessons about robust design and manufacturing processes.
-- wven with good skills in local PCB, we still had to get to this, though the picture below is that of a board that made 1 year 8 months in the field, but it was not looking good
+- These challenges highlighted the difficulty of locally fabricating high‑current PCBs and taught valuable lessons about robust design and manufacturing processes.  
+- Even with good skills in local PCB, we still faced these limitations. The picture below shows a board that lasted 1 year 8 months in the field, but its condition revealed the need for stronger fabrication methods.
 
 ## Boards (1 year 8 months in use)
 <p align="center">
@@ -73,7 +73,20 @@ During local PCB realization at this scale, several issues were encountered:
   <img src="Pictures/Old_board_lamp_terminals.jpg" alt="Old Lamp Terminals" width="400"/>
 </p>
 
+## Lessons Learned
+From the field installations and PCB realization process, several key lessons emerged:
 
+- **Proper PCB Fabrication**: Locally realized PCBs at this scale faced durability issues.  
+  For a lasting real‑world project, PCBs must be printed using proper industrial methods with stronger copper thickness.
+
+- **System Size and Integration**: The initial units were relatively large.  
+  To install in two homes, we had to rewire and bring everything to the distribution box.  
+  This highlighted the importance of making the unit smaller and more modular for easier integration.
+
+- **Power Reliability**: Using Hi‑Link modules provided stable supply, and the inbuilt battery allowed the system to survive short outages or blinks.  
+  This combination proved essential for reliable operation in real environments.
+
+- **Path to Further Development**: These challenges and experiences led to improvements and the evolution of SmItch into a broader **energy management solution**, designed for better scalability and long‑term use.
 
 ## Firmware Versions
 - **Arduino_code** → Original Mega Pro Mini firmware  
