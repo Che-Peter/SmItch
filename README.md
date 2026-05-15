@@ -60,7 +60,7 @@ Its core algorithm runs offline, meaning it does not depend on constant internet
 </p>
 
 ## Documentation
-See `/Docs_System/Features_of_SmItch.pdf` for the complete feature list and scenarios.
+See `/Docs_System/SmItch_Hardware_quick_guide.pdf` and `/Docs_System/Features_of_SmItch.pdf` for the complete feature list and other information.
 
 ## PCB Challenges
 During local PCB realization at this scale, several issues were encountered:
@@ -90,8 +90,8 @@ From the field installations and PCB realization process, several key lessons em
   For a lasting real‑world project, PCBs must be printed using proper industrial methods with stronger copper thickness.
 
 - **System Size and Integration**: The initial units were relatively large.  
-  To install in two homes, we had to rewire and bring everything to the distribution box.  
-  This highlighted the importance of making the unit smaller and more modular for easier integration.
+  To install in a home, we had to rewire and bring everything to the distribution box.  
+  This highlighted the importance of making the unit smaller and more modular for easier integration then wirelessly interconnect them.
 
 - **Power Reliability**: Using Hi‑Link modules provided stable supply, and the inbuilt battery allowed the system to survive short outages or blinks.  
   This combination proved essential for reliable operation in real environments.
